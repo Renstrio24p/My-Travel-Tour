@@ -69,6 +69,13 @@ h1 {
     color: #2B283A;
 }
 
+@media only screen and (min-width: 1051px){
+    .travel-card {
+        flex-direction: row;
+        transition: .5s;
+    }
+}
+
 @media only screen and (max-width: 1050px){
     .travel-card {
         flex-direction: column;
