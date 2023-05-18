@@ -90,3 +90,26 @@ h1 {
         align-items: center;
     }
 }
+
+@media only screen and (max-width: 455px){
+    .travel-card {
+        padding: 80px;
+    }
+    .card-location {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 375) {
+    .card-location {
+        flex-direction: column;
+        display: flex;
+    }
+    .travel-card {
+        padding: 40px;
+    }
+
+    .location {
+        font-size: 8px;
+    }
+}

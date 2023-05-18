@@ -87,3 +87,12 @@ h1 {
         align-items: center;
     }
 }
+
+@media only screen and (max-width: 455px){
+    .travel-card {
+        padding: 20px;
+    }
+    .card-location {
+        font-size: 11px;
+    }
+}
